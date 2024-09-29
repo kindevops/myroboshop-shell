@@ -4,7 +4,7 @@ Description=Shipping Service
 [Service]
 User=roboshop
 Environment=CART_ENDPOINT=cart.kintravel.shop:8080
-Environment=DB_HOST=mysql.kintravel.shop
+Environment=DB_HOST=172.31.80.203
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
 
