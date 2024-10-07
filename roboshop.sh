@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 AMI_ID=ami-09c813fb71547fc4f
 INSTANCES=("mongodb" "catalogue" "user")
 ZONE_ID=Z03707362JEQ4STMRKY6Z
