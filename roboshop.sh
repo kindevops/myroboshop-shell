@@ -1,6 +1,6 @@
 #!/bin/bash
 AMI_ID=ami-09c813fb71547fc4f
-INSTANCES=("mongodb" "catalogue" "user")
+INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
 ZONE_ID=Z03707362JEQ4STMRKY6Z
 SG_ID=sg-023a93812b480a28d
 DOMAIN_NAME="kintravel.shop"
